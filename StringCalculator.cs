@@ -52,13 +52,13 @@ public class StringCalculator
 
     private void ValidateNumbers(List<int> numbers)
     {
-        var negatives = numbers.Where(num => num < 0).ToList;
+        var negatives = numbers.Where(num => num < 0).ToList();
         if (negatives.Any())
         {
             throw new ArgumentException($"negatives not allowed: {string.Join(", ", negatives)}");
         }
     }
-  private int SumNumbers(List<int> numbers)
+  private int SumNumb(List<int> numbers)
   {
         var sum = 0;
         foreach (var num in numbers)
