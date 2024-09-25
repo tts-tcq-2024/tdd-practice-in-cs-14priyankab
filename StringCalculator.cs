@@ -58,7 +58,7 @@ public class StringCalculator
             throw new ArgumentException($"negatives not allowed: {string.Join(", ", negatives)}");
         }
     }
-  private int SumNumb(List<int> numbers)
+  private int SumNumbers(List<int> numbers)
   {
         var sum = 0;
         foreach (var num in numbers)
