@@ -6,7 +6,6 @@
 6. When the numbers are given with custom delimiters, should be handled carefully.
 7. When a negative number is given, throws an exception.
 8. When a number greater than 1000 is given, the number should be considered as 0
-Given below are the few inputs and expected results.........
 
 Input                  Result
 ""                      0
